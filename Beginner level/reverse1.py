@@ -1,0 +1,11 @@
+try:
+	n=int(input())
+	temp=n
+	r=0
+	while(temp!=0):
+		rem=temp%10
+		r=r*10+rem
+		temp=int(temp/10)
+	print(r)
+except:
+	print('Invalid')
