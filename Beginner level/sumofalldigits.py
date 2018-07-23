@@ -1,0 +1,10 @@
+try:
+	s=int(input())
+	sum=0
+	while(s!=0):
+		rem=s%10
+		sum+=rem
+		s=s//10
+	print(sum)
+except:
+	print('invalid')
